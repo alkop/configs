@@ -1,0 +1,94 @@
+
+# Use Xft?
+use_xft yes
+xftfont cure:size=8
+
+# Update interval in seconds
+update_interval 1
+
+# This is the number of times Conky will update before quitting.
+# Set to zero to run forever.
+total_run_times 0
+
+# Create own window instead of using desktop (required in nautilus)
+own_window  yes
+own_window_transparent yes
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager 
+
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Minimum size of text area
+minimum_size 300 5
+maximum_width 300
+
+# Draw shades?
+draw_shades no
+
+# Draw outlines?
+draw_outline no
+
+# Draw borders around text
+draw_borders yes
+
+# Stippled borders?
+stippled_borders 0
+
+# border margins
+border_margin 6
+
+# border width
+border_width 1
+
+# Default colors and also border colors
+default_color 303030
+#default_shade_color white
+#default_outline_color black
+own_window_colour 262626
+
+# Text alignment, other possible values are commented
+#alignment top_left
+#alignment top_right
+alignment bottom_left
+#alignment bottom_right
+
+# Gap between borders of screen and text
+# same thing as passing -x at command line
+gap_x 15
+gap_y 50
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# set to yes if you want all text to be in uppercase
+uppercase no
+
+# number of cpu samples to average
+# set to 1 to disable averaging
+cpu_avg_samples 2
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 2
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+# Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer yes
+
+TEXT
+${color 776241}Port(s) ouvert(s) : ${color 707070}${tcp_portmon 1 65535 count} ${alignr}
+  ${tcp_portmon 1 65535 rhost 0}${alignr}${color 776241}${tcp_portmon 1 65535 lservice 0} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 1} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 1} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 2} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 2} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 3} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 3} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 4} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 4} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 5} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 5} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 6} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 6} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 7} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 7} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 8} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 8} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 9} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 9} 
+  ${color 707070}${tcp_portmon 1 65535 rhost 10} ${alignr}${color 776241}${tcp_portmon 1 65535 lservice 10} 
