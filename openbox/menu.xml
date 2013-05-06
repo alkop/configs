@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+ <menu id="apps-accessories-menu" label="Accessories">
+  <separator label="ACCESSORIES"/>
+  <item label="Calculator" icon="/usr/share/icons/oxygen/48x48/apps/accessories-calculator.png">
+    <action name="Execute">
+      <command>galculator</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Character Map" icon="/usr/share/icons/gnome/48x48/apps/fonts.png">
+    <action name="Execute">
+      <command>babelmap</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="File-Roller Archiver" icon="/usr/share/icons/oxygen/48x48/apps/utilities-file-archiver.png">
+    <action name="Execute">
+      <command>file-roller</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+</menu>
+
+<menu id="apps-programming-menu" label="Programming">
+  <separator label="PROGRAMMING"/>
+  <item label="NetBeans IDE" icon="/usr/share/icons/hicolor/48x48/apps/netbeans.png">
+    <action name="Execute">
+      <command>netbeans</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Eclipse IDE" icon="/usr/share/icons/hicolor/48x48/apps/eclipse-jee.png">
+    <action name="Execute">
+      <command>eclipse</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="IDEA" icon="/usr/share/icons/hicolor/48x48/apps/intellijidea.png">
+    <action name="Execute">
+      <command>idea</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="BlueJ" icon="/usr/local/bluej/icons/bluej-icon-512-embossed.png">
+    <action name="Execute">
+      <command>bluej</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator/>
+  <item label="MonoDevelop" icon="/usr/share/icons/hicolor/48x48/apps/monodevelop.png">
+    <action name="Execute">
+      <command>monodevelop</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="PhpStorm" icon="/usr/local/phpStorm/bin/webide.png">
+    <action name="Execute">
+      <command>phpstorm</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Geany" icon="/usr/share/icons/hicolor/48x48/apps/notepad++.png">
+    <action name="Execute">
+      <command>geany</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+</menu>
+
+<menu id="apps-term-menu" label="Terminals">
+  <separator label="TERMINALS"/>
+  <item label="Sakura" icon="/usr/share/icons/oxygen/48x48/apps/utilities-terminal.png">
+    <action name="Execute">
+      <command>sakura</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Xterm" icon="/usr/share/icons/oxygen/48x48/apps/utilities-terminal.png">
+    <action name="Execute"><command>xterm</command></action>
+  </item>
+  <separator />
+</menu>
+
+<menu id="apps-net-menu" label="Internet">
+  <separator label="INTERNET"/>
+  <item label="Firefox" icon="/usr/share/icons/hicolor/48x48/apps/firefox-logo.png">
+    <action name="Execute">
+      <command>firefox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Firefox</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Opera" icon="/usr/share/icons/hicolor/48x48/apps/opera-browser.png">
+    <action name="Execute">
+      <command>opera</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Opera</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Chrome" icon="/usr/share/icons/hicolor/48x48/apps/chrome.png">
+    <action name="Execute">
+      <command>chromium</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Thunderbird" icon="/usr/share/icons/hicolor/48x48/apps/thunderbird.png">
+    <action name="Execute">
+      <command>thunderbird</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Google Earth" icon="/usr/share/icons/hicolor/48x48/apps/google-earth.png">
+    <action name="Execute">
+      <command>google-earth</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Skype" icon="/usr/share/icons/hicolor/48x48/apps/skype.png">
+    <action name="Execute">
+      <command>skype</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="XChat" icon="/usr/share/icons/hicolor/48x48/apps/xchat.png">
+    <action name="Execute">
+      <command>xchat</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Deluge" icon="/usr/share/icons/hicolor/48x48/apps/deluge.png">
+    <action name="Execute">
+      <command>deluge</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="FileZilla" icon="/usr/share/icons/hicolor/48x48/apps/filezilla.png">
+    <action name="Execute">
+      <command>filezilla</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="FreeRDP" icon="/usr/share/icons/hicolor/48x48/apps/rdp.png">
+    <action name="Execute">
+      <command>remmina</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="TeamViewer" icon="/usr/share/icons/hicolor/48x48/apps/teamviewer-logo.png">
+    <action name="Execute">
+      <command>teamviewer</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+</menu>
+
+<menu id="apps-office-menu" label="Office">
+  <separator label="OFFICE"/>
+  <item label="AbiWord Editor" icon="/usr/share/icons/hicolor/48x48/apps/abiword.png">
+    <action name="Execute">
+      <command>abiword</command>
+    </action>
+  </item>
+  <separator />
+  <item label="Foxit PDF Reader" icon="/usr/share/icons/hicolor/48x48/apps/foxit.png">
+    <action name="Execute">
+      <command>foxitreader</command>
+    </action>
+  </item>
+  <separator />
+  <item label="DjVu Reader" icon="/usr/share/icons/hicolor/48x48/apps/djview.png">
+    <action name="Execute">
+      <command>djview</command>
+    </action>
+  </item>
+  <separator />
+  <item label="CHM Viewer" icon="/usr/share/icons/hicolor/48x48/apps/chm.png">
+    <action name="Execute">
+      <command>gnochm</command>
+    </action>
+  </item>
+  <separator />
+  <item label="LibreOffice Writer" icon="/usr/share/icons/hicolor/48x48/apps/libreoffice-writer.png">
+    <action name="Execute">
+      <command>/usr/lib/libreoffice/program/swriter</command>
+    </action>
+  </item>
+  <separator />
+  <item label="LibreOffice Calc" icon="/usr/share/icons/hicolor/48x48/apps/libreoffice-calc.png">
+    <action name="Execute">
+      <command>/usr/lib/libreoffice/program/scalc</command>
+    </action>
+  </item>
+  <separator />
+  <item label="LibreOffice Draw" icon="/usr/share/icons/hicolor/48x48/apps/libreoffice-draw.png">
+    <action name="Execute">
+      <command>/usr/lib/libreoffice/program/sdraw</command>
+    </action>
+  </item>
+  <separator />
+  <item label="LibreOffice Impress" icon="/usr/share/icons/hicolor/48x48/apps/libreoffice-impress.png">
+    <action name="Execute">
+      <command>/usr/lib/libreoffice/program/simpress</command>
+    </action>
+  </item>
+  <separator />
+  <item label="LibreOffice Math" icon="/usr/share/icons/hicolor/48x48/apps/libreoffice-math.png">
+    <action name="Execute">
+      <command>/usr/lib/libreoffice/program/smath</command>
+    </action>
+  </item>
+  <separator />
+  <item label="LibreOffice Base" icon="/usr/share/icons/hicolor/48x48/apps/libreoffice-base.png">
+    <action name="Execute">
+      <command>/usr/lib/libreoffice/program/sbase</command>
+    </action>
+  </item>
+  <separator />
+</menu>
+
+<menu id="apps-multimedia-menu" label="Multimedia">
+  <separator label="MULTIMEDIA"/>
+  <item label="VLC Media Player" icon="/usr/share/icons/hicolor/48x48/apps/vlc.png">
+    <action name="Execute">
+      <command>vlc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="XMMS Audio Player" icon="/usr/share/icons/hicolor/48x48/apps/xmms-icon.png">
+    <action name="Execute">
+      <command>xmms</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="xVidCap Screencast Recorder" icon="/usr/share/icons/hicolor/48x48/apps/screenrecorder.png">
+    <action name="Execute">
+      <command>xvidcap</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Brasero CD/DVD Burner" icon="/usr/share/icons/hicolor/48x48/apps/brasero.png">
+    <action name="Execute">
+      <command>brasero</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+</menu>
+
+<menu id="apps-fileman-menu" label="File Managers">
+  <separator label="FILE MANAGERS"/>
+  <item label="Thunar" icon="/usr/share/icons/gnome/48x48/apps/system-file-manager.png">
+    <action name="Execute">
+      <command>thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Thunar (root)" icon="/usr/share/icons/gnome/48x48/apps/system-file-manager.png">
+    <action name="Execute">
+      <command>gksu dbus-launch thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Midnight Commander" icon="/usr/share/icons/hicolor/48x48/apps/midnight-commander-logo.png">
+    <action name="Execute">
+      <command>sakura -x mc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="GNOME Commander" icon="/usr/share/icons/hicolor/48x48/apps/gnome-commander.png">
+    <action name="Execute">
+      <command>gnome-commander</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+ </menu>
+
+<menu id="apps-graphics-menu" label="Graphics">
+  <separator label="GRAPHICS"/>
+  <item label="GIMP" icon="/usr/share/icons/hicolor/48x48/apps/gimp.png">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Inkscape" icon="/usr/share/icons/hicolor/48x48/apps/inkscape.png">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="GPicView" icon="/usr/share/icons/hicolor/48x48/apps/picviewer.png">
+    <action name="Execute">
+      <command>gpicview</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+</menu>
+
+<menu id="system-menu" label="System">
+  <separator label="OpenBox WM Settings" />
+  <item label="Openbox Configuration Manager">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Openbox Menu Configurator">
+    <action name="Execute">
+      <command>obmenu</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Edit menu.xml">
+    <action name="Execute">
+      <command>geany .config/openbox/menu.xml</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Edit autostart.sh">
+    <action name="Execute">
+      <command>geany .config/openbox/autostart</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Reconfigure Openbox">
+    <action name="Reconfigure" />
+  </item>
+  <separator label="Conky Settings" />
+  <item label="Edit Conky Configs">
+    <action name="Execute">
+      <command>geany .conky/conkyrc_disk
+					 .conky/conkyrc_diskuse 
+					 .conky/conkyrc_net 
+					 .conky/conkyrc_ports 
+					 .conky/conkyrc_procpu 
+					 .conky/conkyrc_promem 
+					 .conky/conkyrc_sys 
+					 .conky/conkyrc_time 
+					 .conky/conkyrc_mail 
+					 .conky/conkyrc_weather 
+	  </command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item> 
+  <item label="Restart Conky">
+    <action name="Execute">
+      <command>sh .conky/restart.sh</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <separator label="Other Settings" />
+  <item label="Gtk+ 2.0 Change Theme">
+    <action name="Execute">
+      <command>gtk-chtheme</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Nitrogen - Desktop Backgrounds">
+    <action name="Execute">
+      <command>nitrogen /usr/share/archlinux/wallpaper/</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Manage Cups Printers">
+    <action name="Execute">
+      <command>xdg-open http://localhost:631/</command>
+      <startupnotify>
+        <enabled>no</enabled>
+        <icon>cups</icon>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+  <separator label="Quick Launch" />
+  <item label="Sakura">
+    <action name="Execute">
+      <command>sakura</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="VirtualBox">
+    <action name="Execute">
+      <command>virtualbox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator label="Other Applications" />
+  <menu id="apps-accessories-menu"/>
+  <menu id="apps-programming-menu"/>
+  <menu id="apps-graphics-menu"/>
+  <menu id="apps-net-menu"/>
+  <menu id="apps-office-menu"/>
+  <menu id="apps-multimedia-menu"/>
+  <menu id="apps-term-menu"/>
+  <menu id="apps-fileman-menu"/>
+  <separator label="System" />
+  <menu id="system-menu"/>
+  <separator />
+  <item label="Log Out">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
